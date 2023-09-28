@@ -1,0 +1,4 @@
+﻿{
+	"name": "Providers",
+	"references":[ "GUID:4d2f825ef3b60574d854f6f4af153e4f", "GUID:a0517e5c3c5746c0bdb148f1dc6fd8fd" ]
+}

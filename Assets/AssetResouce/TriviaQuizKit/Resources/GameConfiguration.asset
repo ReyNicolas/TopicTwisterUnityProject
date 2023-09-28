@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9ab3c26cbf4bb145a416d5f528a7b6a, type: 3}
+  m_Name: GameConfiguration
+  m_EditorClassIdentifier: 
+  Categories:
+  - {fileID: 114780387891312140}
+  - {fileID: 114769826771408804}
+  - {fileID: 114354912026890582}
+  - {fileID: 114327978994765692}
+  - {fileID: 114848791769761360}
+  - {fileID: 114196524327513978}
+  - {fileID: 114285080633385342}
+  AnyCategorySprite: {fileID: 21300000, guid: 66f621c505f252f4ba9c246f4b8c53f7, type: 3}
+  NumQuestions: 5
+  NumQuestionsNeededForBronzeTrophy: 2
+  NumQuestionsNeededForSilverTrophy: 3
+  NumQuestionsNeededForGoldTrophy: 5
+  QuestionScore: 10
+  TimeLimit: 10
+  SingleChoiceQuestionUi: {fileID: 1643416459490154, guid: b194cd2c64914d543aae21bf71848389,
+    type: 3}
+  SingleChoiceWithImageQuestionUi: {fileID: 1643416459490154, guid: 9edcc3011d884e5448bd2c42d6021552,
+    type: 3}
+  MultipleChoiceQuestionUi: {fileID: 1643416459490154, guid: 9e7ad624da07093498fa4fbe85aceeca,
+    type: 3}
+  MultipleChoiceWithImageQuestionUi: {fileID: 1643416459490154, guid: e9daf7445636251408923738092f6843,
+    type: 3}
+  TrueFalseQuestionUi: {fileID: 1762113671974004, guid: 61e6fe2f61f5adb48aebdb01fa8047c1,
+    type: 3}
+  TrueFalseWithImageQuestionUi: {fileID: 1762113671974004, guid: 3a7d8b09b12d840468d11af295984370,
+    type: 3}
+  PreloadedQuestionPacks: {fileID: 11400000, guid: fa309a9b5553851478bd856ec4845b7c,
+    type: 2}
+--- !u!114 &114196524327513978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2685cafbe6a64824086492cc388e271d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Movies
+  Sprite: {fileID: 21300000, guid: 1382d1c89b96f4e2e80e25deaaf4325d, type: 3}
+--- !u!114 &114285080633385342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2685cafbe6a64824086492cc388e271d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Games
+  Sprite: {fileID: 21300000, guid: fa4214bef1ae858469da727c28210041, type: 3}
+--- !u!114 &114327978994765692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2685cafbe6a64824086492cc388e271d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Science
+  Sprite: {fileID: 21300000, guid: d2ce107fd66f74c2db9e3bcf18047752, type: 3}
+--- !u!114 &114354912026890582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2685cafbe6a64824086492cc388e271d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Sports
+  Sprite: {fileID: 21300000, guid: 8a238cfc00e6a47f8b82a218a8c113b9, type: 3}
+--- !u!114 &114769826771408804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2685cafbe6a64824086492cc388e271d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: History
+  Sprite: {fileID: 21300000, guid: 76f9468e5bca145d7b540720aabb4fc5, type: 3}
+--- !u!114 &114780387891312140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2685cafbe6a64824086492cc388e271d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Geography
+  Sprite: {fileID: 21300000, guid: d5ab1ad400a744829a952b73cb4df307, type: 3}
+--- !u!114 &114848791769761360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2685cafbe6a64824086492cc388e271d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Art
+  Sprite: {fileID: 21300000, guid: 3d6b7919eddf5402582c1b1b78d3ac32, type: 3}

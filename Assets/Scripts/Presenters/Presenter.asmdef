@@ -1,0 +1,4 @@
+﻿{
+	"name": "Presenter",
+	"references":[ "GUID:e56ef35d73ff9d24c9fbffe80ee804cf", "GUID:fede48b58f15c3f48b5c8dc652e59b78", "GUID:1eec8a7a6fcffd34c8af653675090711", "GUID:0298f2998d377fc4c8a10db7042e0d08", "GUID:a0517e5c3c5746c0bdb148f1dc6fd8fd", "GUID:4d2f825ef3b60574d854f6f4af153e4f", "GUID:4f87089cecaf4be39529b67a155ae10a", "GUID:88c567a3573744cfb8d9bbdcd9eb742f", "GUID:ce1265dca0c94c14ea7c557716106e0a" ]
+}
